@@ -1,0 +1,163 @@
+body{
+    background-image: url(http://https://in.images.search.yahoo.com/yhs/view;_ylt=AwrPphyxMbJlpg8VVVMO9olQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2RmMmM4YjNlY2Q3NzVhMDZlNjU2ZjM3MmU1OWNiYWZmBGdwb3MDNQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dsubtle%2Bpatterns%26ei%3DUTF-8%26type%3Dtype80260-2021977744%26fr%3Dyhs-sz-002%26hsimp%3Dyhs-002%26hspart%3Dsz%26param1%3D3421505122%26tab%3Dorganic%26ri%3D5&w=4288&h=2848&imgurl=images.freecreatives.com%2Fwp-content%2Fuploads%2F2016%2F02%2FSubtle-Clouds-Texture-Pattern.jpg&rurl=https%3A%2F%2Fwww.freecreatives.com%2Fpatterns%2Fsubtle-vector-pattern.html&size=630.7KB&p=subtle+patterns&oid=df2c8b3ecd775a06e656f372e59cbaff&fr2=&fr=yhs-sz-002&tt=FREE+30%2B+Subtle+Vector+Patterns+in+PSD+%7C+Vector+EPS&b=0&ni=60&no=5&ts=&tab=organic&sigr=aFHcfvOwN1_Z&sigb=MRxgvqqKd3kE&sigi=kGC1PnB2vtVY&sigt=g4B7nzkofqSr&.crumb=LJcPvA/2fcM&fr=yhs-sz-002&hsimp=yhs-002&hspart=sz&type=type80260-2021977744&param1=3421505122)
+}
+
+.toggle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button{
+    border-radius: 50% !important;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+
+#switches{
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 26px;
+    margin-top: 110px;
+}
+
+.text2{
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 83px;
+    margin-top: 197px;
+}
+
+.text1{
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 19px;
+    margin-top: 142px;
+}
+
+.text1 span:last-child {
+    padding-left: 70px;
+}
+
+#title{
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    font-size: 40px;
+    margin-left: 35px;
+    margin-top: 40px; 
+}
+
+#turn {
+    position: absolute;
+    background: #330000;
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 170px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+}
+
+#outer-circle {
+    background: #385a94;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 8px 8px 15px 5px #888888
+}
+
+#topleft {
+    position: absolute; 
+    height: 250px;
+    width: 250px;
+    border-radius: 250px 0 0 0;
+    -moz-border-radius: 250px 0 0 0;
+    -webkit-border-radius: 250px 0 0 0;
+    background: darkgreen;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#topright {
+    position: absolute; 
+    height: 250px;
+    width: 250px;
+    border-radius: 0 250px  0 0;
+    -moz-border-radius: 0 250px  0 0;
+    -webkit-border-radius: 0 250px  0 0;
+    background: darkred;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#bottomleft {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 250px;
+    -moz-border-radius: 0 0 0 250px;
+    -webkit-border-radius: 0 0 0 250px;
+    background: goldenrod;
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#bottomright {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 250px 0;
+    -moz-border-radius: 0 0 250px 0;
+    -webkit-border-radius: 0 0 250px 0;
+    background: darkblue;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #inner-circle {
+    position: absolute;
+    background: grey;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
